@@ -16,6 +16,7 @@ def upload_to_huggingface(
     sbx2hf_config = {}
     default_sbx2hf_args = {
         'hf_output_folder': out,
+        'push_to_hub': False,
         'paths': [f'export/xml_export.pretty/{sf}_export.xml' for sf in source_files]
     }
     if sbx2hf is not None:
