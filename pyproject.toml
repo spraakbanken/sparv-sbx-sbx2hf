@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "sparv-sbx-sbx2hf"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Sparv plugin for uploading export files to HuggingFace"
 readme = "README.md"
 requires-python = ">=3.11"
